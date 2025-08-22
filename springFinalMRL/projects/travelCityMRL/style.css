@@ -1,0 +1,316 @@
+@font-face {
+    font-family: proxima;
+    src: url(assets/ProximaNovaScOsfExtraCondensed.ttf);
+    font-weight: lighter;
+}
+
+#container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+#logo{
+    width: 100px;
+    height: 50px;
+}
+
+#menu{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+nav{
+     width: 80%;
+    display: flex;
+    justify-content: space-between;
+ }
+a{
+     color: black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+ p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+h1, h2, h3, h4, h6{
+    font-family: proxima;
+}
+h2{
+   margin-bottom: 100px;
+   font-family: proxima;
+}
+h4{
+   font-weight: lighter;
+   font-size: 25px;
+   margin-top: 0px;
+}
+h1{
+   font-size: 50px;
+   margin-bottom: 0px;
+   font-family: proxima;
+   text-align: center;
+}
+h5{
+   font-family: proxima;
+   font-weight: lighter;
+}
+.hOne{
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: center;
+    font-family: proxima;
+    font-size: 80px;
+}
+.hOneTwo{
+   margin-bottom: 0;
+   margin-top: 0;
+   text-align: center;
+   font-family: proxima;
+   font-size: 70px;
+   text-decoration: underline;
+}
+.hOneThree{
+   text-align: left;
+}
+.hTwo{
+   margin-bottom: 0px;
+}
+ #banner{
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(assets/italy.jpg);
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: proxima;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+ }
+ #bannerTours{
+   height: 300px;
+   width: 100%;
+   background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(assets/tours-hero.jpg);
+   background-position: center;
+   text-align: center;
+   color: white;
+   font-family: proxima;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+#bannerContact{
+   height: 300px;
+   width: 100%;
+   background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(assets/seoul.jpg);
+   background-position: center;
+   text-align: center;
+   color: white;
+   font-family: proxima;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+ .button{
+    background-color: #F39696;
+    font-family: proxima;
+    color: white;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+button{
+   font-size: large;
+}
+ .tours{
+   margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: proxima;
+    text-align: center;
+    justify-content: space-evenly;
+ }
+
+ .countries{
+    flex-direction: row;
+    height: 300px;
+    width: 250px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35));
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    justify-content: space-evenly;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 40px;
+ }
+
+ #italy{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/italy.jpg);
+ }
+
+ #china{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/china.jpg);
+ }
+ #egypt{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/egypt.jpg);
+ }
+
+ #sydney{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/sydney.jpg);
+ }
+ #tokyo{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/tokyo.jpg);
+ }
+ #newYork{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/new-york.jpg);
+ }
+ #saoPaulo{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/sao-paulo.jpg);
+ }
+ #cancun{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/cancun.jpg);
+ }
+ #seoul{
+   background-image: linear-gradient(to right, rgba(0,0,0,0.40), rgba(0,0,0,0.40)), url(assets/seoul.jpg);
+ }
+ .textboxes{
+    margin-top: 30px;
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: left;
+ }
+
+ .holyYapfest{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    width: 40%;
+ }
+
+.bottomBanner{
+    margin-top: 100px;
+    padding-top: 100px;
+    width: 100%;
+    background-color: #F39696;
+    height: 10px;
+    display: flex;
+}
+#left{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   flex-wrap: wrap;
+}
+
+.faqFormatting{
+   display: flex;
+   align-items: baseline;
+   flex-wrap: wrap;
+}
+
+#right{
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+   justify-content: right;
+   flex-wrap: wrap;
+   align-items: center;
+}
+
+#holdTheContactStuff{
+   display: flex;
+   align-items: baseline;
+   justify-content: space-evenly;
+}
+
+#theMap{
+   margin-top: 10px;
+   width: 90%;
+   height: 250px;
+}
+
+#holdThisForMe{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.plzGodLetMeBeDone{
+   text-align: left;
+}
+
+.releaseMe{
+   margin: auto;
+   text-align: left;
+}
+
+#bannerOffers{
+   height: 300px;
+   width: 100%;
+   background-image: linear-gradient(to right, rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url(assets/cancun.jpg);
+   background-position: center;
+   text-align: center;
+   color: white;
+   font-family: proxima;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   margin-bottom: 30px;
+}
+
+.offersImg{
+   width: 450px;
+   height: 320px;
+}
+
+.offersContainer{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.offersTxtBox{
+   flex-direction: column;
+   display: flex;
+   width: 40%;
+}
+
+.buttonTwo{
+   background-color: #F39696;
+   font-family: proxima;
+   color: white;
+   border: none;
+   margin-left: 330px;
+   margin-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 20px;
+   padding-right: 20px;
+   text-align: center;
+}
+
+.line{
+   border-bottom: 3px solid black;
+   margin-top: 30px;
+   width: 90%;
+}
+
+.literallyJustTheFont{
+   font-family: proxima;
+}
