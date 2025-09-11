@@ -40,6 +40,64 @@ p{
     color: white;
     font-weight: bolder;
 }
+a:hover{
+    color: #7FB2f0;
+    transition: 0.3s ease-in-out;
+}
+#pokedexImage{
+    background: url("assets/pokedexThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#pokedexImage:hover{
+    background: linear-gradient(to right, rgba(127, 178, 240, 0.5), rgba(127, 178, 240, 0.5)), url("assets/pokedexThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#fallFinalMRLImage{
+    background: url("assets/fallFinalThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#fallFinalMRLImage:hover{
+    background: linear-gradient(to right, rgba(127, 178, 240, 0.5), rgba(127, 178, 240, 0.5)), url("assets/fallFinalThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#travelCityImage{
+    background: url("assets/travelCityThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
+#travelCityImage:hover{
+    background: linear-gradient(to right, rgba(127, 178, 240, 0.5), rgba(127, 178, 240, 0.5)), url("assets/travelCityThumbnail.png");
+    width: 300px;
+    height: 225px;
+    border: 4px double #b2f07f;
+    border-radius: 20px;
+    background-position: center;
+    background-size: cover;
+}
 #logo{
     width: 100px;
     margin: 5px;

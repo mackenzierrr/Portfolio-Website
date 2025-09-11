@@ -29,17 +29,28 @@
             </div>
             <div id="formContainer">
                 <h3>...or send me and e-mail!</h3>
-                <form action="">
+                <form action="" id="contactForm">
                     <label for="fname">Name:</label><br>
                     <input type="text" id="fname" name="fname"><br>
                     <label for="emailBox">E-mail:</label><br>
                     <input type="email" id="emailBox" name="emailBox"><br>
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-                    <input type="submit" value="Submit">
+                    <input type="submit" value="Submit" onclick="sendEmail()">
                 </form>
             </div>
         </div>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "yrsfswOwoP00JcBwA",
+      });
+   })();
+</script>
+<script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
