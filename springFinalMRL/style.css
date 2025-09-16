@@ -2,6 +2,10 @@
     color: #101317;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 #container{
     display: flex;
     flex-direction: column;
@@ -167,6 +171,7 @@ li{
     padding: 20px;
     border: 4px double #b2f07f;
     border-radius: 20px;
+    font-family: Lemonada;
 }
 
 .projectCard{
