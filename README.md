@@ -1,5 +1,4 @@
-# Final as of 9/18
-Mackenzie's Portfolio Website
+# Final as of 9/18 - Mackenzie's Portfolio Website
 
 Description: This is an assignment for my software development class, but will be maintained an added onto as a dev blog via the currently unfinished scrapbook section.
 
